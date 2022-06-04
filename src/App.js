@@ -12,11 +12,11 @@ const App = () => {
         <div class="wrapper">
         <div class="sidebar">
             <header>
-            <h1>Dev<span className='hire'>Hire</span></h1>
+            <h1 className='Dh'>Dev<span className='hire'>Hire</span></h1>
             </header>
             <ul className='nav'>
-              <li><CgSearch/>Home</li>
-              <li><MdFavoriteBorder />Favorites</li>
+              <li className='sea'><CgSearch className='search'/>Home</li>
+              <li className='fav'><MdFavoriteBorder className='search'/>Favorites</li>
             </ul>
        </div>
         
