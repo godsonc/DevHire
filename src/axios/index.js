@@ -3,6 +3,8 @@ import axios from "axios";
 const instance = axios.create({
   baseURL:
     "https://api.terawork.com/service-categories/sellers-services/computer-software-development",
+
+  baseURL2: "https://api.terawork.com/resources",
 });
 
 instance.interceptors.request.use(

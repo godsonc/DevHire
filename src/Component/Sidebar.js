@@ -5,8 +5,8 @@ import { MdFavoriteBorder } from "react-icons/md";
 const Sidebar = () => {
   return (
     <div>
-      <div class="wrapper">
-        <div class="sidebar">
+      <div className="wrapper">
+        <div className="sidebar">
           <header>
             <h1 className="Dh">
               Dev<span className="hire">Hire</span>

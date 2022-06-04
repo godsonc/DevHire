@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from "react";
+import axios from "../axios";
 
 const DevHire = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const [devHire, setDevhire] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-export default DevHire
+  return <div></div>;
+};
+
+export default DevHire;
